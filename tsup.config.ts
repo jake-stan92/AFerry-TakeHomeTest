@@ -6,5 +6,5 @@ export default defineConfig(() => ({
   sourcemap: true,
   clean: true,
   external: [/@aws-sdk\/.*$/],
-  entry: ['./src/index.ts'],
+  entry: ['./src/index.js'],
 }));

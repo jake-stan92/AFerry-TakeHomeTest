@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitest/config';
 import type { UserConfig } from 'vitest/config';
-import { resolve } from 'node:path';
+import { resolve } from 'path';
 
 export default defineConfig(
   (): UserConfig => ({
