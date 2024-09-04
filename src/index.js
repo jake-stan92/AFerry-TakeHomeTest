@@ -35,7 +35,7 @@ module.exports.handler = async (event) => {
         }
       }
     }
-    // console.log(result);
+    console.log(result);
     return result;
   } else {
     return null;
